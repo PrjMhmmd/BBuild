@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+}
+header {
+  background-color: #FFE55D;
+  color: black;
+  padding: 20px 20px 10px 20px;
+}
+
+#navkanan{
+    float:right;
+}
+
+.user{
+    text-align: center;
+    background-color: #FFE55D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+#fiturL{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.call{
+    width: 24px;
+    height: 24px;
+}
+
+.fiturR{
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 105px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 1px solid rgb(175, 175, 175);
+}
+.myDropdown-1{
+    width: 100%;
+}
+
+.myDropdown-2{
+    width:max-content;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.logout{
+    background: white;
+    border:0px;
+    padding: 15px;
+    border: 1px solid rgb(175, 175, 175);
+    width: 100%;
+    text-align: left;
+}
+
+.logout button:hover{
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+
+.logo{
+    width: 100%;
+    height: 30px;
+}
+
+#navkiri, #contact{
+    float:left
+}
+
+nav, #contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#contact li{
+    margin-bottom: 15px;
+}
+
+#cari{
+    background-color:black;
+    padding: 10px 100px 10px 100px;
+}
+
+#input{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 10px;
+}
+
+#footer {
+    background-color: #FFE55D;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .invalid-feedback{
+    color: red;
+    margin-bottom: 8px;
+}

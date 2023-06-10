@@ -1,0 +1,129 @@
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    background-color: white;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    padding:25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 75%;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+.item-box{
+    background-color: white;
+    margin: 25px;
+    padding:25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.box-1, .box-2, .box-3{
+    padding: 30px;
+    height: 100%;
+    margin: 20px;
+}
+
+.box-1{
+    background-image: linear-gradient(to bottom right, #FFE55D, white);
+}
+
+.box-2{
+    background-image: linear-gradient(to bottom right, #5db3ff, white);
+}
+
+.box-3{
+    background-image: linear-gradient(to bottom right, #ff5d68, white);
+}
+
+.text{
+    margin-top:0px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.img-1{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.ruang{
+    margin:20px;
+}
+
+.caption{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: black;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-navBtn{
+    color: black;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: black;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  
+
+

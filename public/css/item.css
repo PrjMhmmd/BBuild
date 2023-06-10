@@ -1,0 +1,34 @@
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    background-color: white;
+    margin:20px;
+    padding:25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 75%;
+}
+p{
+    width: 90%;
+}
+
+.kategori{
+    margin-bottom: 5px;
+}
+
+.ruangan{
+    margin-top: 5px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+}

@@ -1,0 +1,94 @@
+#cart{
+    margin: 10px 0 10px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu{
+    background-color: white;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    padding:25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 75%;
+}
+
+.produk{
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding:25px;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text{
+    padding-right: 80px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+.hapus{
+    background-color: #FFE55D;
+    border: 1px solid black;
+}
+
+.hapus:hover{
+    background-color: #ae9a3a;
+}
+
+.beli{
+    background-color: #FFE55D;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding:10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ul{
+    padding: 0;
+    margin:20px;
+}
+
+#subtotal{
+    margin-right:0;
+    float: right;
+    padding: 0;
+    font-size: 18px;
+}
+
+.total{
+    display: inline-block;
+}
+
+.button{
+    background-color: white;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    float:right;
+}
+
+.button:active{
+    background-color: rgb(173, 173, 173);
+}
+

@@ -1,0 +1,72 @@
+#produk{
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.produk-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 60%;
+  }
+
+.box{
+    margin: 10px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#data{
+    margin: 10px 30px 10px 50px;
+}
+
+.inputan{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    margin: 10px;
+    margin-left: 0;
+}
+
+#simpan{
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+#myTable, tr, th, td{
+    border: 1px solid black;
+    padding: 5px;
+    width: 97%;
+}
+
+th, td{
+    width: 25%;
+}
+
+textarea{
+    height: 100px;
+}
+
+.edit{
+    color: black;
+}
+

@@ -1,0 +1,89 @@
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileSaya{
+  margin-bottom: 40px;
+}
+
+#menu{
+    background-color: white;
+    border-radius: 45px;
+    margin:50px 25px 50px 25px;
+    padding:30px 25px 30px 25px;
+    border:2px solid black;
+    flex-wrap: wrap;
+    width: 60%;
+
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left{
+  flex: 20%;
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+#pilih{
+  margin-top: 30px;
+}
+
+.button{
+  padding: 5px;
+  width: 85px;
+  text-align: center;
+  
+}
+
+.button:active{
+  background-color: #766a2b;
+}
+
+#right{
+  flex: 30%;
+  margin: 10px 30px 10px 50px;
+}
+
+.inputan{
+  width: 80%;
+  padding: 5px;
+}
+
+h4{
+  margin: 10px;
+  margin-left: 0;
+}
+
+#simpan{
+  margin-top: 30px;
+  width: fit-content;
+}
+
+#button-1{
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  background-color: #FFE55D;
+}
+
+#button-1:active{
+  background-color: #766a2b;
+}
+
+

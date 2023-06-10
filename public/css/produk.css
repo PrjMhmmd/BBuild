@@ -1,0 +1,120 @@
+#produk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+    background-color: white;
+    border-radius: 45px;
+    margin:15px 25px 15px 25px;
+    padding:30px 25px 30px 25px;
+    border:2px solid black;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 45px;
+    margin: 10px 30px 10px 30px;
+}
+
+#atur{
+    margin: 10px 30px 10px 30px;
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: #FFE55D;
+    border: 2px solid black;
+}
+
+.number{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 40px;
+    background-color: #FFE55D;
+}
+
+.number:active{
+    background-color: #766a2b;
+}
+
+.cart{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FFE55D;
+    border: 2px solid black;
+}
+
+button:active{
+    background-color: #766a2b;
+}
+
+.cart:active{
+    background-color: #766a2b;
+}
+
+.konten{
+    text-align: center;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.price{
+    text-align: center;
+}
+
+.jumlah{
+    text-align: center;
+    margin-top:10px;
+}
+
+.text{
+    margin-bottom:0;
+}
+
+.text-1{
+    margin-top:5px;
+}
+
+#detail{
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 45px;
+    background-color: white;
+    padding: 20px;
+    margin:35px 40px 50px 40px;
+}
+
+.label{
+    margin: 0;
+}

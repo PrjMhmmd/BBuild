@@ -1,0 +1,87 @@
+#pengiriman {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 60%;
+    border:2px solid black;
+}
+#head{
+    background-color: #FFE55D;
+    padding-left: 20px;
+}
+#isi{
+    padding: 10px 30px 10px 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-bottom: 5px;
+
+}
+
+button{
+    background-color: #FFE55D;
+    border: 2px solid black;
+    margin-top: 25px;
+    padding: 10px 20px 10px 20px;
+}
+
+#pengiriman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metode{
+    margin: 20px;
+    border:1px solid black;
+    padding:0px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+}
+
+.bank{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border:1px solid black;
+    margin: 5px;
+}
+
+.bank:active {
+    background-color: grey;
+}
+
+.form{
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#RP{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#harga{
+    margin: 0px 30px 30px 30px;
+}
+
+.deliver{
+    width: 100%;
+    padding: 7px;
+}
