@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 //PUBLIK
 Route::get('/', [homeController::class,'index']);
 
-Route::get('/produk/{produk:slug}', [produkController::class,'show']);
+Route::get('/produk/{produk:slug}', [produkController::class,'show'])->middleware('auth');
 
 Route::get('/kategori/{kategori:slug}', [produkController::class,'index_kategori']);
 Route::get('/ruangan/{ruangan:slug}', [produkController::class,'index_ruangan']);

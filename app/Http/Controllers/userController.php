@@ -22,9 +22,9 @@ class userController extends Controller
         $user = User::find($userId);
 
         $update=([
-            'username' => 'required|string',
-            'email' => 'required|email|unique:users,email,',
-            'hp' => 'required|string',
+            'username' => 'string',
+            'email' => 'email|unique:users,email,',
+            'hp' => 'string',
             'image' => 'image|mimes:jpeg,png|max:2048',
         ]);
 

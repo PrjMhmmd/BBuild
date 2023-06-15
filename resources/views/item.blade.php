@@ -87,6 +87,7 @@
                         @endif
 
                         <h3>{{ $produk->nama_barang }}</h3>
+                        <p>Harga Barang: {{ $produk->harga_barang }} | Jumlah Barang: {{ $produk->jumlah_barang }}</p>
                         <p class="kategori">Kategori: {{ $produk->kategori->name }} | Jenis:{{ $produk->jenis->name }}</p>
                         <p class="ruangan">Ruangan: {{ $produk->ruangan->name }}</p>
                         <p style="text-align: justify;">{{ $produk->deskripsi_barang }}</p>
